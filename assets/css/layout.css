@@ -1,0 +1,910 @@
+
+
+
+
+.cf-myclass{
+	background-color: #80BB35;
+	color: white;
+	padding: 5px; 
+}
+.login-myclass a{
+	text-decoration: none;
+	color: white;
+}
+
+.login-myclass a:hover{
+	color: #FE9705;
+}
+
+.login-myclass a, .login-myclass b, .login-myclass i{
+	float: right;
+	line-height: 1.5;
+}
+
+
+
+
+
+
+/* On screens that are 600px or less, set the background color to blue */
+@media screen and (max-width: 768px) {
+    
+	.col-myclass{
+		display: none;
+	}
+}
+
+@media screen and (max-width: 770px){
+	.login-myclass{
+  		display: none;
+  	}
+	.col-myclass{
+		display: none;
+	}
+	.img-myclass{
+
+	}
+	.openNav-myclass{
+		display: inline-block !important;
+	}
+	.menu-myclass{
+		display: none;
+		font-size: 18px;
+	}
+	.row-myclass{
+		font-size: 12px;
+	}
+	#menu{
+		margin-top: 2em;
+	}
+}
+
+@media screen and (max-width: 991px){
+	.login-myclass{
+  		display: none;
+  	}
+	.openNav-myclass{
+		display: inline-block !important;
+	}
+	.menu-myclass{
+		display: none;
+	}
+	.menu-myclass{
+	margin-top: 2em;
+	}
+	.col-myclass{
+		display: none;
+	}
+	
+	.cart-myclass i{
+		font-size: 30px;
+		line-height: 2;
+		color: black;
+		background-color: white!important;
+	}
+	
+}
+
+
+.openNav-myclass{
+	display: none;
+}
+
+/* The side navigation menu */
+.sidenav {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #fff; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 2em; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+  z-index: 2;
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 10px 30px;
+  text-decoration: none;
+  font-size: 16px;
+  color: #80BB35;
+  display: block;
+  transition: 0.3s;
+}
+.sidenav input{
+	padding-left: 30px;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+  transition: margin-left .5s;
+  
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+
+}
+
+
+
+.menu-myclass{
+	margin-top: 2em;
+	background-color: #80BB35;
+	
+}
+.menu-myclass ul{
+	list-style-type: none;
+		margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #80BB35;
+	
+}
+.menu-myclass ul li{
+	float: left;
+}
+
+.menu-myclass ul li:hover{
+	background-color: #FE9705;
+}
+
+.menu-myclass input[type = "text"], .menu-myclass input[type = submit]{
+	margin: 13px 0;
+	border: none;
+}
+
+
+.menu-myclass ul li a{
+	display: block;
+	color: white;
+	text-align: center;
+	margin: 17px;
+	text-decoration: none;
+}
+
+
+
+.container span a{
+	text-decoration: none;
+	color: white;
+}
+.navbar a{
+	color: white;
+}
+.dropdown-menu{
+	background-color: #80BB35;
+}
+
+#owl-demo .item{
+  margin: 3px;
+}
+#owl-demo .item img{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+
+
+.row span a{
+	text-decoration: none;
+}
+#menu{
+	background-color: #80BB35;
+	text-align: center;
+	border-radius: 10px;
+	padding: 5px;
+	color: white;
+}
+#dropdown{
+	border: 1px solid #e9ecef;
+	border-radius: 10px;
+}
+
+#dropdown ul li {
+	display: block;
+}
+#dropdown ul li a{
+	text-decoration: none;
+	color: black;
+
+}
+#dropdown ul li a i{
+	font-size: 14px;
+}
+#dropdown ul li a:hover{
+	text-decoration: none;
+	color: #80BB35;
+	padding-left: 1em;
+}
+.carousel-item img{
+	border-radius: 20px;
+}
+img.card-img-top{
+	border-radius: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+/*---------------------------main---------------------------*/
+
+
+
+
+
+
+/*----------------style product------------*/
+.product{
+	margin-top: 35px;
+}
+.product ul li a{
+	color: black;
+	font-weight: 600;
+	font-size: 16px;
+}
+.product ul li a:hover{
+	color: #80BB35;
+}
+
+.item .cart{
+	margin: 20px 0;
+	width: 230px;
+	height: 335px;
+}
+ .item .cart:hover{
+	transform: scale(0.95);
+    transition: all ease-in-out 0.2s;
+}
+ .cart a img{
+	width: 100%;
+}
+.cart .cart-img{
+	height: 230px;
+	border-radius: 10px;
+}
+ .cart .cart-title,
+ .cart .price{
+	line-height: 25px;
+	height:25px;
+	margin-top: 5px;
+}
+ .cart .price span{
+	width: 50%;
+	display: inline-block;
+	float: left;
+}
+ .cart .link-cart {
+	width: 100%;
+	height: 40px;
+	display: inline-block;
+	background-color: #E0E1E2;
+	line-height: 40px;
+	text-decoration: none;
+	text-align: center;
+	border-radius: 5px;
+	color: black;
+	font-weight: 600;
+	margin-top: 10px;
+}
+.cart .link-cart a{
+	color: black;
+}
+.cart a:hover{
+	color: #80BB35; 
+	text-decoration: none;
+}
+
+
+.product div .owl-item{
+	display: flex;
+    justify-content: center;
+}
+
+
+
+/*-----------------/style product-----------*/
+
+
+
+/*-------------------news------------------*/
+
+.brick{
+	position: relative;
+	border-bottom: 2px solid #FE9705;
+	margin-top: 3em;
+	margin-bottom: 3em;
+}
+.title-myclass {
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%);
+	background-color: #80BB35;
+	color: white;
+	top:-20px;
+	border-radius: 35px;
+	padding: 10px 20px;
+}
+.title-myclass{
+	/*background-color: #80BB35;
+	text-align: center;
+	margin-top: 2em;
+	color: white;*/
+}
+
+
+
+/*-------------------/news------------------*/
+
+
+
+
+
+/*---------------------------/main--------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-----------------------style footer------------------*/
+.col-myclass-footer{
+	margin-top: 1em;
+}
+.col-myclass-footer li{
+	list-style-type: none;
+	color: white;
+}
+.col-myclass-footer li a{
+	text-decoration: none;
+	color: white;
+}
+.col-myclass-footer li a:hover{
+	color: #FE9705;
+}
+.col-myclass-footer li h5{
+	margin-bottom: 1em;
+}
+.icon-myclass{
+	color: #FE9705;
+}
+
+.icon2-myclass{
+	width: 30px;
+	font-size: 25px;
+}
+/*-----------------------/style footer------------------*/
+
+
+/*----------------------title các trang-----------------*/
+.news-title-myclass{
+		margin: 2em 0;
+		padding: 10px;
+}
+.news-title-myclass a{
+	text-decoration: none;
+	color: black;
+	font-size: 18px;
+}
+.news-title-myclass span a {
+	color:#80BB35;
+}
+.news-title-myclass a:hover, .news-body-myclass a:hover{
+	color:#80BB35;
+}
+#img img{
+	padding: 10px;
+}
+
+.news-img-myclass{
+	margin: 1em;
+}
+.news-img-myclass img{
+	border-radius: 5px;
+}
+.news-body-myclass{
+	margin-top: 1em;
+}
+.news-body-myclass a{
+	text-decoration: none;
+	color: black;
+}
+@media(max-width: 991px){
+	.news-title-myclass {
+		background-color: #f6f6f6;
+	}
+}
+
+/*-----------------------cart--------------------*/
+.table-cart #table-img{
+	width: 20%;
+	height: 230px;
+}
+.table-cart #table-name{
+	width: 15%;
+}
+.table-cart #table-price,.table-cart #table-total{
+	width: 13%;
+}
+.table-cart #table-quantity{
+	width: 25%;
+}
+.table-cart #table-quantity div{
+	display: flex;
+	justify-content: center;
+}
+.table-cart #table-quantity input[class="number"]{
+	width: 200px;
+	height: 46px;
+	border-radius: 3px;
+	outline: 0;
+	border: 1px solid silver;
+	text-align: right;
+}
+.table-cart #table-quantity span{
+	width: 46px;
+	height: 46px;
+	line-height: 2;
+}
+.table-cart #table-del{
+	width: 27%;
+}
+.table-cart #detail-cart{
+	text-align: center;
+}
+.table-cart button[class="del"]{
+	border: none;
+    background-color: snow;
+}
+.table-cart #button-click{
+	margin-top: 50px;
+	display: flex;
+	justify-content: space-between;
+}
+
+#btnCheck{
+	background-color: #80BB35;
+	border-radius: 5px;padding: 10px;
+	border: none;
+}
+#btnCheck:hover{
+	background-color: #247514;
+}
+
+
+/*-----------------------------login----------------------------*/
+a {
+    text-decoration: none !important;
+}
+
+.breadcrumb {
+    background-color: #fff;
+    margin: 0;
+    font-size: 1.14286em;
+    padding: 0;
+    border-radius: 0;
+    background: transparent;
+}
+
+.breadcrumb li span .fa {
+    color: #898989;
+    font-size: 1em;
+    margin: 3px;
+}
+
+.breadcrumb li > a > span {
+    color: #333;
+}
+
+.breadcrumb li > a > span:hover {
+    color: #80BB35;
+}
+
+.breadcrumb li strong {
+    color: #80BB35;
+    font-weight: 400;
+    font-size: 1em;
+    margin-left: 5px;
+}
+
+#content.container{
+    
+}
+
+#content .well {
+    min-height: 20px;
+    padding: 19px;
+    margin-bottom: 20px;
+    background-color: #f5f5f5;
+    border: 1px solid #e3e3e3;
+    border-radius: 4px;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+}
+
+#content a.btn, #content form input.btn-primary[type="submit"] {
+    background-color: #80BB35;
+    border: none;
+    height: 40px;
+    line-height: 37px;
+    padding: 0 15px;
+    text-align: center;
+    white-space: nowrap;
+    outline: none !important;
+    cursor: pointer;
+    border: none;
+    font-weight: 400;
+}
+
+#content label[for] {
+    cursor: pointer;
+    color: #363636;
+    font-weight: 700;
+}
+
+#content form {
+    margin-bottom: 50px;
+}
+
+#content .form-control:focus {
+    border-color: #ced4da;
+    box-shadow: none;
+}
+
+#content .form-control {
+    margin: 10px 0;
+}
+
+#content .btn.btn-primary:focus {
+    box-shadow: none;
+}
+
+#content form a {
+    color: #363636;
+    margin: 10px 0;
+}
+
+#content form a:hover{
+    color: #8DC940;
+}
+
+.alert.alert-danger {
+    margin-bottom: 20px;
+}
+
+#content .btn.btn-primary:hover {
+    background-color: #8DC940;
+}
+
+
+
+/*--------------------register-----------------*/
+a {
+    text-decoration: none !important;
+}
+
+
+
+.breadcrumb {
+    background-color: #fff;
+    margin: 0;
+    font-size: 1.14286em;
+    padding: 0;
+    border-radius: 0;
+    background: transparent;
+}
+
+.breadcrumb li span .fa {
+    color: #898989;
+    font-size: 1em;
+    margin: 3px;
+}
+
+.breadcrumb li > a > span {
+    color: #333;
+}
+
+.breadcrumb li > a > span:hover {
+    color: #80BB35;
+}
+
+.breadcrumb li strong {
+    color: #80BB35;
+    font-weight: 400;
+    font-size: 1em;
+    margin-left: 5px;
+}
+
+.my-login-section img {
+	width: 100%;
+}
+
+.my-login-section {
+	color: #333;
+	text-align: center;
+}
+
+.my-login-section p {
+	margin: 25px 0;
+}
+
+.my-login-section p a {
+    color: #80BB35;
+}
+
+.my-login-section p a:hover {
+    color: #8DC940;
+}
+
+.my-register-section h4 {
+	text-align: center;
+}
+
+.my-register-form .field.error input {
+    width: 100%;
+}
+
+.my-register-form .error-message {
+	display: none;
+}
+
+.my-register-form .field {
+	margin: 15px 0;
+}
+
+.my-register-form .field > label {
+    display: block;
+    margin: 0 0 .28571429rem;
+    color: rgba(0,0,0,.87);
+    font-size: .92857143em;
+    font-weight: 700;
+    text-transform: none;
+}
+
+.my-register-form .field > .error > input {
+    background-color: #FFF6F6;
+    border: 1px solid;
+    border-radius: 5px;
+    box-shadow: none;
+}
+
+.my-register-form .field .field.error input {
+    min-height: 35px;
+    background-color: #FFF;
+    border-radius: 5px;
+    border: 1px solid #EBEBEB;
+    color: #55595C;
+    padding-left: 10px;
+}
+
+.my-register-form .field .field.error div {
+    color: #f00;
+    font-style: italic;
+    margin: 10px 0;
+}
+
+.my-register-form button {
+	height: 40px;
+	line-height: 35px;
+	padding: 0 20px;
+	text-align: center;
+	white-space: nowrap;
+	outline: none !important;
+	cursor: pointer;
+	border: none;
+	font-weight: 400;
+	background-color: #80BB35;
+	color: #fff;
+}
+
+
+
+/*---------------------contact------------------*/
+
+
+#wrapper {
+				
+}
+
+#wrapper div#link {
+	padding: 15px 0;
+}
+
+#wrapper div#link a {
+	color: #55595C;
+}
+
+#wrapper div#link a span {
+	padding: 0 10px;
+}
+
+#wrapper div#link b {
+	padding: 0 15px;
+	color: #80BB35;
+}
+
+#wrapper h4 {
+	margin-bottom: 10px;
+}
+
+#contact-form input[type="text"], #contact-form textarea {
+	width: 100%;
+	min-height: 40px;
+	background-color: #FFF;
+	border-radius: 5px;
+	border: 1px #EBEBEB solid;
+	margin: 10px 0;
+	padding: .375rem 20px;
+	color: #55595C;
+}
+
+#contact-form textarea {
+	resize: none;
+	height: 200px;
+}
+
+#contact-form input[type="submit"] {
+	line-height: 40px;
+	min-height: 40px;
+	text-align: center;
+	cursor: pointer;
+	border: none;
+	font-weight: 400;
+	background-color: #80BB35;
+	color: #fff;
+	border-radius: 5px;
+	padding: 0 40px;
+	margin: 15px 0;
+}
+
+#contact-form input[type=submit]:hover {
+	background-color: #8DC940;
+}
+
+#contact-box-info i {
+	width: 40px;
+	height: 40px;
+	background-color: #80BB35;
+	color: #FFF;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	margin: 10px;
+}
+
+#contact-box-info .info {
+	
+}
+
+#contact-box-info .info label {
+	color: #707070;
+	font-weight: bold;
+}
+
+#contact-box-info .info p {
+	margin-left: 65px;
+}
+
+#contact-box-info .info a {
+	margin-left: 65px;
+	color: #FE9705;
+}
+
+#contact-box-info .info a#google-map-button {
+	text-align: center;
+	padding: 15px;
+	background-color: #31b0d5;
+	color: #fff !important;
+	border-radius: 5px;
+	border-color: #269abc;
+	width: 90%;
+	display: inline-block;
+	line-height: 15px;
+}
+
+
+
+/*-----------------------search---------------------*/
+.search select,.search input[type="text"],.search label,.search button{
+	height: 40px;
+	display: inline-block;
+	margin-right: 10px;
+	margin-left: 5px;
+	width: 100%;
+}
+
+.search button{
+	width: 100%;
+	background:  #80BB35;
+	color: white;
+	border: none;
+
+}
+
+
+/*----------------------checkout------------------*/
+
+.panel{
+		margin-bottom: 20px;
+	    background-color: #fff;
+	    border: 1px solid #ddd;
+	    border-radius: 5px;
+	}
+	.panel-default{
+		border-color: #ddd;
+	}
+	.checkout-title-myclass{
+		padding: 10px 15px;
+		margin-bottom: 1em;
+	    border-bottom: 1px solid #ddd;
+	    border-top-left-radius: 5px;
+	    border-top-right-radius: 5px;
+	    background-color: #f5f5f5;
+	}
+	.checkout-body-myclass{
+		margin-bottom: 1em;
+		margin-right: -15px;
+		margin-left: 15px;
+	}
+	.col-9 input[type=text]{
+		width: 60%;
+	}
+	.payment-method{
+		display: flex;
+		flex-direction: row;
+	}
+	.subtitle{
+		font-size: 12px !important;
+    	color: #777;
+	}
+	.button span a{
+		color: black;	
+	}
+	.button span a:hover{
+		color: #80BB35;
+	}
+	.button [type=button]{
+		border: none;
+		border-radius: 5px;
+		padding: 10px;
+		background-color: #80BB35;float: right;
+	}
+	.button [type=button]:hover{
+		background-color: #247514;
+	}
